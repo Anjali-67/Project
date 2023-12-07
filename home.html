@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRAMOPHONE</title>
+    <style>
+      body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: beige;
+  }
+
+  .gramophone {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    position: fixed;
+    top: 130px;
+    left: 500px;
+  }
+  .foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+  }
+  .a {
+    position: fixed;
+    left: 650px;
+  }
+  .b {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 100%;
+    color: black;
+    padding: 15px;
+    text-align: center;
+  }
+  nav {
+    flex-direction: row;
+    
+  }
+  .c {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    color: black;
+  }
+  .ab {
+    position: fixed;
+    top: 250px;
+    left: 120px;
+    color: white;
+    background-color: black;
+  }
+  a{
+    color: burlywood;
+    text-decoration: none;
+  }
+  a:hover{
+    color: brown;
+    font-weight: bold;
+  }
+
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="home.html" >Home</a>
+        <a href="About.html" >About Us</a>
+        <a href="contact.html" >Contact</a>
+        <a href="Products.html" >Products</a>
+        <a href="review.html" >Review</a>
+        <div class="gramophone">
+          <img src="image.jpg" />
+        </div>
+        <p class="b">Gramophone- A Record Player</p>
+        <p class="c">Shop Now-Just a click away</p>
+      </nav>
+    </header>
+    <a href="Products.html">
+      <button class="ab" a>Shop Now</button>
+    </a>
+    <footer class="foot">
+      <p>
+        @gramophone : all rights reserved, for more information-
+        <a href="contact.html" >Contact</a>
+      </p>
+    </footer>
+  </body>
+</html>
